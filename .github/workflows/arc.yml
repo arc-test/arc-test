@@ -1,6 +1,15 @@
 name: Actions Runner Controller Demo
 on:
   workflow_dispatch:
+      inputs:
+        arc_name:
+          description: 'Name of the Azure Resource Group'
+          required: true
+          default: 'ubuntu-dind-16gb'
+        delay:
+          description: 'Delay in seconds before starting the runner'
+          required: true
+          default: '2'
 
 jobs:
   Explore-GitHub-Actions:
