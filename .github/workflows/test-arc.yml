@@ -1,4 +1,4 @@
-name: Test Arc
+name: Test Arc Runner Set
 on:
   workflow_dispatch:
       inputs:
