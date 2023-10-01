@@ -1,2 +1,2 @@
-# Testing Arc wagainst Github actions
+# Testing ARC
 
